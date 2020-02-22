@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: tan;
+}
+
+.main_wrapper{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background: seagreen;
+    border-radius: 10px;
+}
+header .main_tittle{
+    width: 100%;
+    display: inline-block;
+}
+
+header .main_tittle img{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    width: 100px;
+    padding: 5px 15px;
+}
+header .main_tittle h1{
+    font-weight: normal;
+    display: inline-block   
+}
+header .main_tittle h3{
+    margin-top: 0px;
+    font-weight: normal;
+    padding: 5px 10px;
+}
+
+header nav{
+    width: 100%;
+}
+header nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+header nav ul li{
+    float: right;
+
+}
+header nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 15px 20px;
+}
+header nav ul li a:hover{
+    background: black;
+    color: #ffffff;
+}
+.banner_image{
+    margin-top: 15px;
+    height: 240px;
+    border-radius: 5px;
+   
+    background-image: url("../imagenes/Jungle.jpg");
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.banner_description{
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    padding: 15px 5px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 18px;
+    
+}
+.yellow_button{
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}    
+
+.yellow_button img{
+    border: 0px;
+    width: 38px;
+    text-align: center;
+}
+section{
+    border-radius: 5px;
+}
+section article{
+    width: 60%;
+}
+section article .Titulo{
+    margin-right: 10px;
+    width: 40px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    
+}
+section article h1{
+    display: inline-block;
+    font-size: 20px;
+}
+section article p{
+    margin-bottom: 10px;
+}
+article, aside{
+    display: inline-block;
+    text-align: justify;
+    
+}
+section aside{
+    position: relative;
+    width: 38%;
+    background-color: #706b64;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    float: right;
+}
+section aside h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+section aside img{
+    float: left;
+    margin-bottom: 15px;
+}
+section aside p{
+    font-size: 15px;
+    margin-bottom: 15px;
+    
+}
+footer{
+    background: #425a53;
+    padding-top: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+.lavado, .miembros, .recientes{
+    display: inline-block;
+    vertical-align: top;
+}
+footer h1, footer h4 {
+    overflow: hidden;
+    text-align: center;
+    color: honeydew;
+}
+footer a{
+    overflow: hidden;
+    color: honeydew;
+}
+footer .lavado{
+    width: 30%;
+    margin: 10px;
+    margin-bottom: 20px;
+
+}
+.brainwash{
+   margin: 10px;
+}
+.brainwash img{
+    width: 150px;
+    margin-left: 110px;
+}
+footer .miembros{
+    width: 35%;
+}
+footer .miembros img{
+    width: 120px;
+}
+footer .recientes{
+    width: 30%;
+    
+}
+footer h5{
+    float: right;
+    color: honeydew;
+}
